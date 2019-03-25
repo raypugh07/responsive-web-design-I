@@ -353,9 +353,9 @@ header nav a {
     display:flex;
     justify-content: center;
     border-top: 1px solid gray;
-    
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 17px;
     /*padding-left:100px;*/
 }
 header .logo {
@@ -402,6 +402,11 @@ header .logo {
     width: 450px;
     
 }
+.main-content .top-content .text-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
 .main-content .middle-img {
     display: block;
    /* margin: 30px auto;*/
@@ -412,6 +417,12 @@ header .logo {
     display:flex;
     flex-direction: column;
     width:450px;
+}
+.main-content .bottom-content .text-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+
 }
 
 
