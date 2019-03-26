@@ -325,28 +325,34 @@ header .logo {
 }
 
 }
+/*mobile phone*/
+
 @media (max-width:500px) {
     .container {
-        width:500px;
+        width:100%;
         padding: 10px 10px 10px 10px;
         margin: 0px 0px 0px 0px;
-        /*border: 1px solid;*/
+       /* border: 1px solid;*/
+        
     }
 header {
     display:flex;
     flex-direction: column-reverse;
-    width: 56%;
+    width: 100%;
+    margin-left:0px;
+    margin-right:0px;
+   /* border:1px solid;*/
     
     
 }
 header nav {
     margin-top: 40px; 
-    width: 450px;
+    width:100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    padding: 10px 10px 10px 10px;
-   /* border:1px solid;*/
+    /*padding: 10px 10px 10px 10px;*/
+    /*border:1px dashed;*/
 
 }
 header nav a {
@@ -355,12 +361,16 @@ header nav a {
     border-top: 1px solid gray;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-size: 17px;
+    width:100%;
     /*padding-left:100px;*/
+   /* border:1px dotted;*/
 }
 header .logo {
-    margin: 28px 0px 0px 125px;
-    width: 200px;
+    margin: 28px 0px 0px 25%;
+    width: 50%;
     /*border: 1px solid;*/
 }
 .code-snippet {
@@ -372,8 +382,8 @@ header .logo {
     margin-left:0px;
     margin-right:0px;
     justify-content: center;
-   /* border:1px solid;*/
-    width: 450px;
+   /*border:1px solid;*/
+    width: 100%;
     border-top: 1px solid gray;
 }
 .cta .cta-text {
@@ -386,6 +396,8 @@ header .logo {
     align-items: center;
     margin: 0px 0px 0px 0px;
     padding: 20px 5px 5px 5px;
+    width:100%;
+   /* border:1px solid;*/
 }
 .main-content {
     border-top: 2px solid black; 
@@ -394,36 +406,50 @@ header .logo {
     padding: 35px 0;
     font-size: 16px;
     line-height: 18px;
-    width: 450px;
+    width: 100%;
+    /*border:solid;*/
+    
  }
 .main-content .top-content {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 100%;
+   /* border: dashed;*/
+    
     
 }
 .main-content .top-content .text-content {
     display: flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
+    width: 100%
 }
 .main-content .middle-img {
     display: block;
    /* margin: 30px auto;*/
     margin-left: 0px;
-    width: 450px;
+    width: 100%;
+    
 }
 .main-content .bottom-content {
     display:flex;
     flex-direction: column;
-    width:450px;
+    width: 100%;
+   /* border: dotted;*/
 }
 .main-content .bottom-content .text-content{
     display: flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
+    width:100%;
 
 }
+.contact {
+    width: 100%;
+   /* border:solid;*/
+    padding: 10px 5% 10px 5%;
+}
+
 
 
 }
